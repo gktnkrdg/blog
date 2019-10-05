@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gökten Karadağ</title>
-    <link>https://gktnkrdg.github.io/</link>
+    <link>https://goktenkaradadag.com/</link>
     <description>Recent content on Gökten Karadağ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>tr</language>
     <lastBuildDate>Sun, 29 Sep 2019 14:07:05 +0000</lastBuildDate>
     
-	<atom:link href="https://gktnkrdg.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://goktenkaradadag.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>.NET Core Swagger kullanımı</title>
-      <link>https://gktnkrdg.github.io/posts/2019-09-29_.net-core-swagger-kullan%C4%B1m%C4%B1/</link>
+      <link>https://goktenkaradadag.com/posts/2019-09-29_.net-core-swagger-kullan%C4%B1m%C4%B1/</link>
       <pubDate>Sun, 29 Sep 2019 14:07:05 +0000</pubDate>
       
-      <guid>https://gktnkrdg.github.io/posts/2019-09-29_.net-core-swagger-kullan%C4%B1m%C4%B1/</guid>
+      <guid>https://goktenkaradadag.com/posts/2019-09-29_.net-core-swagger-kullan%C4%B1m%C4%B1/</guid>
       <description>Günümüzde birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anlaşılabilir olması , iyi yazılmış bir dokümantasyona sahip olması ve bu dokümantasyonun güncel kalabilmesi oldukça önemli. Tam bu noktada OpenAPI şartnamesi hem insanların hem de bilgisayarların; kaynak koda, dokümantasyona bağlı kalmadan RESTful API’ları anlayıp işlemesi için standart bir tanımlama sunuyor. Bu tanımlama ile API’a ait bütün endpointleri, tüm metotları, metotların input, outputlarını ve authentication bilgilerini görebilmeye imkân veriyor.
 OpenAPI 3.0 ile Open 2.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://gktnkrdg.github.io/contact/</link>
+      <link>https://goktenkaradadag.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gktnkrdg.github.io/contact/</guid>
+      <guid>https://goktenkaradadag.com/contact/</guid>
       <description>İletişim Bilgileri  gktnkrdg@gmail.com</description>
     </item>
     
