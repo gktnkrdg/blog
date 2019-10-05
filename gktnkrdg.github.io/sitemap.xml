@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://gktnkrdg.github.io/posts/2019-09-29_.net-core-swagger-kullan%C4%B1m%C4%B1/</loc>
+    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gktnkrdg.github.io/</loc>
+    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gktnkrdg.github.io/posts/</loc>
+    <lastmod>2019-10-05T18:55:21+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gktnkrdg.github.io/contact/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gktnkrdg.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gktnkrdg.github.io/tags/</loc>
+  </url>
+  
+</urlset>

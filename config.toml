@@ -1,4 +1,5 @@
-baseurl = "http://www.example.com"
+baseurl = "https://gktnkrdg.github.io"
+publishDir = "gktnkrdg.github.io"
 title = "Gökten Karadağ"
 theme = "hugo-coder"
 languagecode = "tr"
