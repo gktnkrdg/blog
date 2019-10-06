@@ -8,11 +8,11 @@ description: "OpenAPI nedir, Swagger Swashbuckle nedir ve Swagger’ın .NET Co
 
 subtitle: "Günümüzde birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anlaşılabilir olması , iyi yazılmış bir dökümantasyona sahip olması ve…"
 
-image: "/posts/2019-09-29_.net-core-swagger-kullanımı/images/1.png" 
+image: "/posts/net-core-swagger/images/1.png" 
 images:
- - "/posts/2019-09-29_.net-core-swagger-kullanımı/images/1.png" 
- - "/posts/2019-09-29_.net-core-swagger-kullanımı/images/2.png" 
- - "/posts/2019-09-29_.net-core-swagger-kullanımı/images/3.png" 
+ - "/posts/net-core-swagger/images/1.png" 
+ - "/posts/net-core-swagger/images/2.png" 
+ - "/posts/net-core-swagger/images/3.png" 
 
 
 aliases:
@@ -24,7 +24,7 @@ Günümüzde birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anla
 
 
 
-![OpenAPI 3.0 ile Open 2.0 arasındaki karşılaştırma](/posts/2019-09-29_.net-core-swagger-kullanımı/images/1.png)
+![OpenAPI 3.0 ile Open 2.0 arasındaki karşılaştırma](/posts/2019-09-29_.net-core-swagger/images/1.png)
 
 OpenAPI 3.0 ile Open 2.0 arasındaki karşılaştırma
 
@@ -59,7 +59,7 @@ Projemizi çalıştırdıktan sonra adres satırında **/swagger** altında swag
 
 
 
-![image](/posts/2019-09-29_.net-core-swagger-kullanımı/images/2.png)
+![image](/posts/2019-09-29_.net-core-swagger/images/2.png)
 
 Swagger Arayüzü
 
@@ -76,7 +76,7 @@ Değişiklikleri tamamladıktan sonra artık Swagger ui üzerinden header alanı
 
 
 
-![image](/posts/2019-09-29_.net-core-swagger-kullanımı/images/3.png)
+![image](/posts/net-core-swagger/images/3.png)
 
 Swagger ile anlatacaklarım şimdilik bu kadar. Bir sonraki makalede görüşmek üzere.
 
