@@ -1,22 +1,21 @@
 ---
-title: ".NET Core Swagger kullanımı"
+title: "NET Core Swagger Kullanımı"
 author: "Gökten Karadağ"
 date: 2019-09-29T14:07:05.622Z
 lastmod: 2019-10-05T18:55:21+03:00
-
+slug : "net core swagger kullanimi"
 description: "OpenAPI nedir, Swagger Swashbuckle nedir ve Swagger’ın .NET Core 3 için kullanımı"
 
 subtitle: "Günümüzde birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anlaşılabilir olması , iyi yazılmış bir dökümantasyona sahip olması ve…"
 
-image: "/posts/net-core-swagger/images/1.png" 
+image: "/1.png" 
 images:
- - "/posts/net-core-swagger/images/1.png" 
- - "/posts/net-core-swagger/images/2.png" 
- - "/posts/net-core-swagger/images/3.png" 
+ - "/posts/2019-09-29_net-core-swagger/1.png" 
+ - "/posts/2019-09-29_net-core-swagger/2.png" 
+ - "/posts/2019-09-29_net-core-swagger/3.png" 
 
 
-aliases:
-    - "/net-core-swagger-14f36270590d"
+
 ---
 
 Günümüzde  birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anlaşılabilir olması , iyi yazılmış bir dokümantasyona sahip olması ve bu dokümantasyonun güncel kalabilmesi oldukça önemli. Tam bu noktada OpenAPI şartnamesi hem insanların hem de bilgisayarların; kaynak koda, dokümantasyona bağlı kalmadan RESTful API’ları anlayıp işlemesi için standart bir tanımlama sunuyor. Bu tanımlama ile API’a ait bütün endpointleri, tüm metotları, metotların input, outputlarını ve authentication bilgilerini görebilmeye imkân veriyor.
@@ -24,9 +23,9 @@ Günümüzde  birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anl
 
 
 
-![OpenAPI 3.0 ile Open 2.0 arasındaki karşılaştırma](/posts/2019-09-29_.net-core-swagger/images/1.png)
+![OpenAPI 3.0 ile Open 2.0 arasındaki karşılaştırma](/posts/2019-09-29_net-core-swagger/1.png#center)
 
-OpenAPI 3.0 ile Open 2.0 arasındaki karşılaştırma
+OpenAPI 3.0 ile Open 2.0 arasındaki karşılaştırma 
 
 
 
@@ -39,9 +38,12 @@ Swagger’ın sunduğu bazı araçlar ise şöyle:
 *   [**Swagger Codegen**](https://github.com/swagger-api/swagger-codegen): Hem client hem de server tarafında kod üretmenizi sağlar.
 
 Birçok programlama dili için Swagger kütüphanesi bulunuyor. Swashbuckle ise .NET üzerindeki en popüler Swagger kütüphanelerinden birisi.Diğer diller için geliştirilen kütüphaneleri ve alternatifleri [buradan](https://swagger.io/tools/open-source/open-source-integrations/) inceleyebilirsiniz.Swashbuckle’ın **.NET Core 3** için kurulumu aşağıdaki gibidir.
-``Install-Package Swashbuckle.AspNetCore -Version 5.0.0-rc3``> .NET Core versiyonları arasında kurulumda farklılıklar gözlenebilir.Kurulum için ayrıca [buradan](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) yararlanabilirsiniz.
 
-Swashbuckle.AspnetCore 5.0 versiyonuyla beraber OpenAPI 3&#39;ü desteklenmeye başlamıştır. Versiyonlar arasındaki farkları detaylı olarak [buradan](https://blog.readme.io/an-example-filled-guide-to-swagger-3-2/) inceleyebilirsiniz.
+``Install-Package Swashbuckle.AspNetCore -Version 5.0.0-rc3``
+
+> .NET Core versiyonları arasında kurulumda farklılıklar gözlenebilir.Kurulum için ayrıca [buradan](https://github.com/domaindrivendev/Swashbuckle.AspNetCore) yararlanabilirsiniz.
+
+Swashbuckle.AspnetCore 5.0 versiyonuyla beraber OpenAPI 3'ü desteklenmeye başlamıştır. Versiyonlar arasındaki farkları detaylı olarak [buradan](https://blog.readme.io/an-example-filled-guide-to-swagger-3-2/) inceleyebilirsiniz.
 
 Kurulum tamamlandıktan sonra
 
@@ -59,7 +61,7 @@ Projemizi çalıştırdıktan sonra adres satırında **/swagger** altında swag
 
 
 
-![image](/posts/2019-09-29_.net-core-swagger/images/2.png)
+![image](/posts/2019-09-29_net-core-swagger/2.png#center)
 
 Swagger Arayüzü
 
@@ -76,7 +78,7 @@ Değişiklikleri tamamladıktan sonra artık Swagger ui üzerinden header alanı
 
 
 
-![image](/posts/net-core-swagger/images/3.png)
+![image](/posts/2019-09-29_net-core-swagger/3.png#center)
 
 Swagger ile anlatacaklarım şimdilik bu kadar. Bir sonraki makalede görüşmek üzere.
 
