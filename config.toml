@@ -13,11 +13,13 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 disqusShortname = "goktenkaradag"
-
+[permalinks]
+    posts = "/:year/:month/:slug/"
+    page = "/:slug/"
 [params]
     author = "Gökten Karadağ"
     info = "Developer"
-    description = "Gökten Karadağ Kişisel Web sitesidir"
+    description = "Gökten Karadağ Kişisel Web sitesi"
     keywords = "blog,developer,personal"
   
 
