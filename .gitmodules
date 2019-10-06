@@ -3,4 +3,4 @@
 	url = https://github.com/luizdepra/hugo-coder.git
 [submodule "gktnkrdg.github.io"]
 	path = gktnkrdg.github.io
-	url = git@github.com:gktnkrdg.github.io.git
+	url = https://github.com/gktnkrdg/gktnkrdg.github.io
