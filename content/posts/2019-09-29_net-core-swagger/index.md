@@ -6,19 +6,15 @@ lastmod: 2019-10-05T18:55:21+03:00
 slug : "net core swagger kullanimi"
 description: "OpenAPI nedir, Swagger Swashbuckle nedir ve Swagger’ın .NET Core 3 için kullanımı"
 tags : [
-    "go",
-    "golang",
-    "templates",
-    "themes",
-    "development",
+    "net",
+    ".net",
+    ".net core",
+    "swagger",
+    "open api",
 ]
 subtitle: "Günümüzde birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anlaşılabilir olması , iyi yazılmış bir dökümantasyona sahip olması ve…"
 
-image: "/1.png" 
-images:
- - "/posts/2019-09-29_net-core-swagger/1.png" 
- - "/posts/2019-09-29_net-core-swagger/2.png" 
- - "/posts/2019-09-29_net-core-swagger/3.png" 
+
 
 
 

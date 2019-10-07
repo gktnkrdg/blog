@@ -36,7 +36,7 @@ h4,
 h5,
 h6 {
   font-family: Merriweather, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   color: #000;
   margin: 6.4rem 0 3.2rem 0; }
 
@@ -248,7 +248,7 @@ img {
       font-size: 1.8rem;
       color: #212121;
       font-family: Merriweather, sans-serif;
-      font-weight: 700; }
+      font-weight: 400; }
       .list ul li .title:hover, .list ul li .title:focus {
         color: #1565c0; }
 
@@ -310,7 +310,7 @@ img {
     display: inline;
     font-size: 1.6rem;
     font-family: Merriweather, sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 6.0rem;
     color: #212121; }
   .navigation a:hover, .navigation a:focus {
@@ -386,7 +386,7 @@ img {
   .pagination li {
     display: inline;
     text-align: center;
-    font-weight: 700; }
+    font-weight: 400; }
     .pagination li span {
       margin: 0;
       text-align: center;
