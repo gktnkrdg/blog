@@ -5,7 +5,13 @@ date: 2019-09-29T14:07:05.622Z
 lastmod: 2019-10-05T18:55:21+03:00
 slug : "net core swagger kullanimi"
 description: "OpenAPI nedir, Swagger Swashbuckle nedir ve Swagger’ın .NET Core 3 için kullanımı"
-
+tags : [
+    "go",
+    "golang",
+    "templates",
+    "themes",
+    "development",
+]
 subtitle: "Günümüzde birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anlaşılabilir olması , iyi yazılmış bir dökümantasyona sahip olması ve…"
 
 image: "/1.png" 
@@ -23,7 +29,7 @@ Günümüzde  birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anl
 
 
 
-![OpenAPI 3.0 ile Open 2.0 arasındaki karşılaştırma](/posts/2019-09-29_net-core-swagger/1.png#center)
+![OpenAPI 3.0 ile Open 2.0 arasındaki karşılaştırma](/image/net-core-swagger/1.png#center)
 
 OpenAPI 3.0 ile Open 2.0 arasındaki karşılaştırma 
 
@@ -61,7 +67,7 @@ Projemizi çalıştırdıktan sonra adres satırında **/swagger** altında swag
 
 
 
-![image](/posts/2019-09-29_net-core-swagger/2.png#center)
+![image](/image/net-core-swagger/2.png#center)
 
 Swagger Arayüzü
 
@@ -78,7 +84,7 @@ Değişiklikleri tamamladıktan sonra artık Swagger ui üzerinden header alanı
 
 
 
-![image](/posts/2019-09-29_net-core-swagger/3.png#center)
+![image](/image/net-core-swagger/3.png#center)
 
 Swagger ile anlatacaklarım şimdilik bu kadar. Bir sonraki makalede görüşmek üzere.
 
