@@ -6,7 +6,6 @@ lastmod: 2019-10-05T18:55:21+03:00
 slug : "net core swagger kullanimi"
 description: "OpenAPI nedir, Swagger Swashbuckle nedir ve Swagger’ın .NET Core 3 için kullanımı"
 tags : [
-    "net",
     ".net",
     ".net core",
     "swagger",
