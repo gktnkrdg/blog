@@ -13,8 +13,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 disqusShortname = "goktenkaradag"
-[permalinks]
-  posts = "/:slug/"
+
 [params]
     author = "Gökten Karadağ"
     info = "Software Developer"
