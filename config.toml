@@ -4,11 +4,11 @@ title = "Gökten Karadağ"
 theme = "hugo-coder"
 languagecode = "tr"
 defaultcontentlanguage = "tr"
-paginate = 20
+paginate = 10
 googleAnalytics = "UA-149416035-1"
 canonifyURLs = true
 enableRobotsTXT = true
-pygmentsstyle = "bw"
+pygmentsstyle = "friendly"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
@@ -20,8 +20,7 @@ disqusShortname = "goktenkaradag"
     info = "Software Developer"
     description = "Gökten Karadağ Kişisel Web sitesi"
     keywords = "blog,developer,personal"
-  
-
+    dateformat = "02 January 2006"
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 

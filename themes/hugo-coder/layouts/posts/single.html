@@ -12,8 +12,8 @@
           <div class="date">
             <span class="posted-on">
               <i class="fas fa-calendar"></i>
-              <time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}'>
-                {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}
+              <time datetime='{{ .Date.Format "21-02-2006T15:04:05Z07:00" }}'>
+                {{ .Date.Format (.Site.Params.dateFormat | default "2/ 01/ 2006" ) }}
               </time>
             </span>
             {{/*  <span class="reading-time">
