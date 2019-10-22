@@ -1,9 +1,9 @@
 ---
-title: "S.O.L.I.D Prensipleri -Nedir  #1"
-author: "Gökten Karadağ"
+title: "S.O.L.I.D Prensipleri"
+author: "Gökten Karadağ"   
 date: 2019-10-19-T14:07:05.622Z
 lastmod: 2019-10-19T18:55:21+03:00
-slug : "solid prensipleri"
+slug : "solid prensipleri"  
 tags : [
     "S.O.L.I.D",
     "solid",
@@ -12,6 +12,7 @@ tags : [
 ]
 description: "Solid Prensipleri nedir"
 draft: false 
+weight: 10
 ---
 # Nedir
 S.O.L.I.D Prensipleri, Robert C. Martin tarafından hazırlanan Nesneye Tabanlı Programlama Prensiplerinin ilk 5 maddesinin kısaca [adlandırılmasıdır](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod).
@@ -31,7 +32,7 @@ Bu maddeler
 S.O.L.I.D prensipleri , geliştirilen yazılımların daha anlaşılır olmasını ve bakımının ve daha kolay olmasını hedefler.
 
 Peki nedir bu prensipler , tek tek inceleyelim.
-![](/image/solid-prensipleri/solid-1.png#center)
+
 # Single Responsibility Principle
 
 > Bir sınıfın veya metodun tek bir sorumluluğu olmalıdır.
@@ -155,20 +156,22 @@ Son olarak CombinedAreaCalculator class'ını güncelleyelim. Artık yeni bir ş
 {{< /highlight >}}
 
 
-# Liskov's Substitution Principle
+# Liskov`s Substitution Principle
 
 > Bir base class'tan türetilen class'lar üst class'ların yerine de kullanabililir olmalıdır.
 
-Bird classımız var ve içine Fly metotu ekledik. Ardından Eagle(kartal) ve Ostrich(devekuşu) bird'den türettik. Fakat base class türetilen classlar üst classların yerine de kullanılabilmeli. Ostrich bir üst clasının özelliği olayı fly metotunu sağlayamıyor.Bu yüzden kodumuzda değişiklik yapmamız gerekiyor.
+Bird isimli classımız var ve içine Fly metotunu ekledik. Ardından Eagle(kartal) ve Ostrich(devekuşu) classlarını Bird class'ından türettik. Ostrich bir üst clasının özelliği olayı fly metotunu sağlayamıyor ,fakat base classtan türetilen classlar üst classların yerine de kullanılabilmeli. Bu yüzden kodumuzda değişiklik yapmamız gerekiyor.
 {{< highlight cs >}}
     class Bird{
         void Fly() {
         
         }
     }
+
     class Eagle : Bird {
     
     }
+
     class Ostrich : Bird {
     
     }
@@ -178,14 +181,17 @@ FlyingBirds isimli yeni bir class oluşturalım ve Fly metotunu bu class'a ekley
     class Bird{
     
     }
+
     class FlyingBirds : Bird{
         void Fly(){
         
         }
     } 
+
     class Eagle : FlyingBirds {
     
     }
+
     class Ostrich : Bird{
     
     }
@@ -201,6 +207,7 @@ ToyHouse isimli bir class'ımız olsun ve bunu IToy interface'inden türetelim.
     	void SetColor(string color);
     	void Fly();
     }
+
     class ToyHouse :IToy {
     	String color;
     	public void SetColor(string color) {
@@ -218,11 +225,12 @@ Burada çözüm IToy interface'inden Fly metotunu ayırmak, IFlyable isimli bir 
     interface IToy {
     	void SetPrice(double price);
     }
+
     interface IFlyable {
        void Fly();
     }
 {{< /highlight >}}
-Ardından kodumuzu düzenlersek , daha doğru bir kod elde etmiş oluruz.
+Ardından kodumuzu düzenleyelim.
 {{< highlight cs >}}
     class ToyHouse :IToy {
     	double price;
@@ -246,7 +254,7 @@ Ardından kodumuzu düzenlersek , daha doğru bir kod elde etmiş oluruz.
 {{< /highlight >}}
 
 
-# D**ependency Inversion Principle**
+# Dependency Inversion Principle
 
 > Üst modüller alt seviyedeki modüllere doğruda bağımlı olmamalıdır.soyutlamalar ile bağlı olmalıdır.Alt modüllerde yapılan bir değişiklik üst modülü etkilememelidir..
 
@@ -333,7 +341,7 @@ Kod örneklerini [Github](https://github.com/gktnkrdg/S.O.L.I.D) üzerinden ince
 
 Bir sonraki yazıda görüşmek üzere.
 
-### Referanslar
+## Referanslar
 
 [http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod)
 

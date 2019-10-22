@@ -11,6 +11,7 @@ tags : [
     "swagger",
     "open api",
 ]
+toc: true
 subtitle: "Günümüzde birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anlaşılabilir olması , iyi yazılmış bir dökümantasyona sahip olması ve…"
 
 
@@ -19,14 +20,15 @@ subtitle: "Günümüzde birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’
 
 ---
 
+# Giriş
 Günümüzde  birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anlaşılabilir olması , iyi yazılmış bir dokümantasyona sahip olması ve bu dokümantasyonun güncel kalabilmesi oldukça önemli. Tam bu noktada OpenAPI şartnamesi hem insanların hem de bilgisayarların; kaynak koda, dokümantasyona bağlı kalmadan RESTful API’ları anlayıp işlemesi için standart bir tanımlama sunuyor. Bu tanımlama ile API’a ait bütün endpointleri, tüm metotları, metotların input, outputlarını ve authentication bilgilerini görebilmeye imkân veriyor.
 
 
 
 
-![OpenAPI 3.0 ile Open 2.0 arasındaki karşılaştırma](/image/net-core-swagger/1.png#center)
 
-OpenAPI 3.0 ile Open 2.0 arasındaki karşılaştırma 
+{{< figure class="center" src="/image/net-core-swagger/1.png#center" title="OpenAPI 3.0 ile Open 2.0 arasındaki karşılaştırma" >}}
+
 
 
 
@@ -38,6 +40,7 @@ Swagger’ın sunduğu bazı araçlar ise şöyle:
 *   [**Swagger UI**](https://swagger.io/swagger-ui/): OpenAPI belgesini interaktif bir HTML CSS dökümantasyona çevirir.Bu ara yüz üzerinden API’ı test etmenize olanak sağlar.
 *   [**Swagger Codegen**](https://github.com/swagger-api/swagger-codegen): Hem client hem de server tarafında kod üretmenizi sağlar.
 
+# Kurulum
 Birçok programlama dili için Swagger kütüphanesi bulunuyor. Swashbuckle ise .NET üzerindeki en popüler Swagger kütüphanelerinden birisi.Diğer diller için geliştirilen kütüphaneleri ve alternatifleri [buradan](https://swagger.io/tools/open-source/open-source-integrations/) inceleyebilirsiniz.Swashbuckle’ın **.NET Core 3** için kurulumu aşağıdaki gibidir.
 
 ``Install-Package Swashbuckle.AspNetCore -Version 5.0.0-rc3``
@@ -62,10 +65,10 @@ Projemizi çalıştırdıktan sonra adres satırında **/swagger** altında swag
 
 
 
-![image](/image/net-core-swagger/2.png#center)
 
-Swagger Arayüzü
+{{< figure class="center" src="/image/net-core-swagger/2.png#center" title="Swagger Arayüzü " >}}
 
+# Custom Header
 Eğer API projenize bir header eklemek ve bunu Swagger’a dahil etmek isterseniz yapmanız gereken bir operation filter tanımlamaktır. Aşağıda **.NET Core 3** için örnek kullanımını görebilirsiniz.
 {{< gist gktnkrdg 7b672da3bae08abe5621390cc026ff59 >}}
 
@@ -85,7 +88,7 @@ Swagger ile anlatacaklarım şimdilik bu kadar. Bir sonraki makalede görüşmek
 
 **Github** : [https://github.com/gktnkrdg/SwaggerCore](https://github.com/gktnkrdg/SwaggerCore)
 
-### Referanslar:
+# Referanslar
 
 [OpenAPI Specification](http://spec.openapis.org/oas/v3.0.2)
 

@@ -6,3 +6,6 @@ img[src$='#center']
                             horizontal 'auto' for this to work */
     /* whatever else styles you fancy here */
 }
+figcaption {
+    text-align: center;
+  }
