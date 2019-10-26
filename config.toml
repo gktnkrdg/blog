@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313"
+baseURL = "https://goktenkaradag.com"
 languageCode = "tr"
 defaultContentLanguage = "tr"  
 title = "Gökten Karadağ"
@@ -117,10 +117,11 @@ copyright = ""            # default: author.name ↓
 
   [params.social]                                         # 社交链接
     a-email = "mailto:gktnkrdg@gmail.com"
-    b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
-    e-linkedin = "http://localhost:1313"
-    g-github = "http://localhost:1313"
+    #b-stack-overflow = "http://localhost:1313"
+    c-twitter = "https://twitter.com/gktnkrdg"
+    e-linkedin = "https://linkedin.com/in/gökten"
+    g-github = "https://github.com/gktnkrdg"
+    m-medium = "https://medium.com/@gktnkrdg"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
