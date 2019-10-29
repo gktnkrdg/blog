@@ -12,6 +12,7 @@ tags : [
     "open api",
 ]
 toc: true
+draft: true
 subtitle: "Günümüzde birçok API tasarlıyoruz ya da kullanıyoruz. Bu API’ların anlaşılabilir olması , iyi yazılmış bir dökümantasyona sahip olması ve…"
 
 

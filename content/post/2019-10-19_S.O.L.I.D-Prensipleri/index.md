@@ -21,7 +21,7 @@ Bu maddeler
 
 **S** – (SRP) Single responsibility principle 
 
-**O** – (OCP) Open closed principle
+**O** – (OCP) Open closed principle  
 
 **L** – (LSP) Liskov substitution principle
 
@@ -29,9 +29,9 @@ Bu maddeler
 
 **D** – (DIP) Dependency Inversion principle
 
-S.O.L.I.D prensipleri , geliştirilen yazılımların daha anlaşılır olmasını ve bakımının ve daha kolay olmasını hedefler.
+S.O.L.I.D prensipleri, geliştirilen yazılımların daha anlaşılır olmasını ve bakımının daha kolay olmasını hedefler.
 
-Peki nedir bu prensipler , tek tek inceleyelim.
+Peki nedir bu prensipler, tek tek inceleyelim.
 
 # Single Responsibility Principle
 
@@ -53,7 +53,7 @@ Peki nedir bu prensipler , tek tek inceleyelim.
     }
 {{< /highlight >}}
 
-SendEmail metotu hem emaili doğruluyor hem de email gönderim işlemini yapıyor. Metotun birden fazla sorumluluğun olması Single Responsibility Principle ile çelişiyor.Bu yüzden bu metotu prensipe uygun olacak şekilde düzenleyelim ve SendEmail metotunu sadece mail göndermeden sorumlu hale getirelim.
+SendEmail metotu hem emaili doğruluyor hem de email gönderim işlemini yapıyor. Metotun birden fazla sorumluluğun olması Single Responsibility Principle ile çelişiyor. Bu yüzden bu metotu prensipe uygun olacak şekilde düzenleyelim ve SendEmail metotunu sadece mail göndermeden sorumlu hale getirelim.
 {{< highlight cs >}}
     public class EmailService
     {
@@ -74,7 +74,7 @@ SendEmail metotu hem emaili doğruluyor hem de email gönderim işlemini yapıyo
 {{< /highlight >}}
 # Open/Closed Principle
 
-> Classlar,metotlar değişikliğe kapalı ancak gelişime açık olmalıdır.
+> Classlar, metotlar değişikliğe kapalı ancak geliştirmeye açık olmalıdır.
 
 Geometrik şekillerin alanlarını hesaplayan bir yapımız olsun.
 {{< highlight cs >}}
@@ -110,7 +110,7 @@ Geometrik şekillerin alanlarını hesaplayan bir yapımız olsun.
     }
 {{< /highlight >}}
 
-Yeni bir şekil eklemek ve bunun da alanını hesaplamak istediğimizde  CombinedAreaCalculator metodumuzu değiştirmemiz gerekecek . Fakat classlarda metotlarda yapacağımız geliştirmeler  değişikliğe sebep olmamlı. Peki bunu en basit haliyle nasıl düzenleyebiliriz. Öncelikle Shape isimli bir abstract class tanımlayalım.
+Yeni bir şekil eklemek ve bunun da alanını hesaplamak istediğimizde CombinedAreaCalculator metodumuzu değiştirmemiz gerekecek. Fakat classlarda metotlarda yapacağımız geliştirmeler  değişikliğe sebep olmamalı. Peki bunu en basit haliyle nasıl düzenleyebiliriz. Öncelikle Shape isimli bir abstract class tanımlayalım.
 {{< highlight cs >}}
     public abstract class Shape
     {
@@ -138,7 +138,7 @@ Ardından Rectangle ve Circle classlarımızı bu Shape class'ından türetelim 
         }
     }
 {{< /highlight >}}
-Son olarak CombinedAreaCalculator class'ını güncelleyelim. Artık yeni bir şekil geldiğinde sadece yeni bir class oluşturacak CombinedAreaCalculator metotunu değiştirmemize gerek kalmadan geliştirmemizi tamamlayabiliriz.
+Son olarak CombinedAreaCalculator class'ını güncelleyelim. Artık yeni bir şekil geldiğinde sadece yeni bir class oluşturacak ve CombinedAreaCalculator metotunu değiştirmemize gerek kalmayacak.
 
 {{< highlight cs >}}
     public class CombinedAreaCalculator
@@ -160,7 +160,7 @@ Son olarak CombinedAreaCalculator class'ını güncelleyelim. Artık yeni bir ş
 
 > Bir base class'tan türetilen class'lar üst class'ların yerine de kullanabililir olmalıdır.
 
-Bird isimli classımız var ve içine Fly metotunu ekledik. Ardından Eagle(kartal) ve Ostrich(devekuşu) classlarını Bird class'ından türettik. Ostrich bir üst clasının özelliği olayı fly metotunu sağlayamıyor ,fakat base classtan türetilen classlar üst classların yerine de kullanılabilmeli. Bu yüzden kodumuzda değişiklik yapmamız gerekiyor.
+Bird isimli classımız var ve içine Fly metotunu ekledik. Ardından Eagle(kartal) ve Ostrich(devekuşu) classlarını Bird class'ından türettik. Ostrich bir üst class'ının özelliği olan fly metotunu sağlayamıyor fakat base classtan türetilen classlar üst classların yerine de kullanılabilmeli. Bu yüzden kodumuzda değişiklik yapmamız gerekiyor.
 {{< highlight cs >}}
     class Bird{
         void Fly() {
@@ -199,7 +199,7 @@ FlyingBirds isimli yeni bir class oluşturalım ve Fly metotunu bu class'a ekley
 
 # Interface Segregation Principle
 
-> Classlar ihtiyaç duymadıkları bir interface'i kullanmaya zorlanmamalı veya ihtiyaç duyduğu interface'e ait tek bir metod için interface'in bütün metotlarını implemente etmek zorunda kalmamalıdır.
+> Classlar ihtiyaç duymadıkları bir interface'i kullanmaya zorlanmamalı ve ihtiyaç duyduğu interface'e ait tek bir metod için interface'in bütün metotlarını implemente etmek zorunda kalmamalıdır.
 
 ToyHouse isimli bir class'ımız olsun ve bunu IToy interface'inden türetelim.
 {{< highlight cs >}}
@@ -218,7 +218,7 @@ ToyHouse isimli bir class'ımız olsun ve bunu IToy interface'inden türetelim.
     	}
     }
 {{< /highlight >}}
-ToyHouse class'ı IToy interface'inden türetildiği için Fly metotuna kullanmaya zorlanıyor. Fakat ToyHouse'ın uçabilme gibi bir özelliği yok. 
+ToyHouse class'ı IToy interface'inden türetildiği için Fly metotuna kullanmaya zorlanıyor. Fakat ToyHouse'ın Fly özelliği yok. 
 
 Burada çözüm IToy interface'inden Fly metotunu ayırmak, IFlyable isimli bir interface yaratmak olabilir.  
 {{< highlight cs>}}
@@ -256,9 +256,9 @@ Ardından kodumuzu düzenleyelim.
 
 # Dependency Inversion Principle
 
-> Üst modüller alt seviyedeki modüllere doğruda bağımlı olmamalıdır.soyutlamalar ile bağlı olmalıdır.Alt modüllerde yapılan bir değişiklik üst modülü etkilememelidir..
+> Üst modüller alt seviyedeki modüllere doğrudan bağımlı olmamalıdır, soyutlamalar ile bağlı olmalıdır. Alt modüllerde yapılan bir değişiklik üst modülü etkilememelidir.
 
-Post kaydı oluşturduğumuz bir yapımız olsun .
+Post kaydı oluşturduğumuz bir yapımız olsun.
 
 {{< highlight cs >}}
     class Post
