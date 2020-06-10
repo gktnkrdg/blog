@@ -7,7 +7,6 @@ author = "Hugo Authors"
 +++
 Merhaba Ben Gökten.
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
 
 
 

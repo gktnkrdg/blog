@@ -1,6 +1,6 @@
 baseURL = "https://goktenkaradag.com"
 languageCode = "tr"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "tr"
 title = "Gökten Karadağ"  
 theme = "anatole"
 summarylength = 10
@@ -13,14 +13,14 @@ publishDir = "/gktnkrdg.github.io"
 #googleAnalytics = "UA-149416035-1"
 
 [params]
-title = "I'm Gökten"
-author = "Gökten Karadağ - Hugoanotele theme"
+title = "Gökten Karadağ"
+author = "Gökten Karadağ "
 description = "Software Developer"
 profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
 customCss = []
-mainSections = ["post"]
+ mainSections = ["post", "docs"]
 
 ## Math settings
 [params.math]
@@ -29,22 +29,27 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 
 ## Social links
 [[params.socialIcons]]
-icon = "fa-linkedin"
+icon = "fab fa-2x  fa-linkedin"
 title = "Linkedin"
-url = "https://de.linkedin.com/"
+url = "https://www.linkedin.com/in/g%C3%B6kten/"
 
 [[params.socialIcons]]
-icon = "fa-github"
+icon = "fab fa-2x fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
+url = "https://github.com/gktnkrdg"
 
 [[params.socialIcons]]
-icon = "fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
+icon = "fab fa-2x fa-medium"
+title = "medium"
+url = "https://www.twitter.com/gktnkrdg"
 
 [[params.socialIcons]]
-icon = "fa-envelope"
+icon = "fab fa-2x fa-twitter"
+title = "twitter"
+url = "https://www.twitter.com/gktnkrdg"
+
+[[params.socialIcons]]
+icon = "fa fa-2x fa-envelope"
 title = "e-mail"
 url = "mailto:gktnkrdg@gmail.com"
 
@@ -53,19 +58,14 @@ url = "mailto:gktnkrdg@gmail.com"
 [menu]
 
   [[menu.main]]
-  name = "Home"
+  name = "Anasayfa"
   identifier = "home"
   weight = 100
   url = "/"
 
-  [[menu.main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
 
-  [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
+ #  [[menu.main]]
+ # name = "Hakkımda"
+ # weight = 300
+ # identifier = "about"
+ # url = "/about/"
