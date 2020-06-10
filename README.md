@@ -1,0 +1,1 @@
+hugo -d gktnkrdg.github.io

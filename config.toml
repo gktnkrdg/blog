@@ -1,21 +1,21 @@
-baseURL = "https://example.com"
-languageCode = "en"
+baseURL = "https://goktenkaradag.com"
+languageCode = "tr"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
+title = "Gökten Karadağ"  
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
-
+publishDir = "/gktnkrdg.github.io"
 # Enable Disqus
 #disqusShortname = ""
 
 # Google Analytics
-#googleAnalytics = "UA-123-45"
+#googleAnalytics = "UA-149416035-1"
 
 [params]
-title = "I'm Jane Doe"
-author = "Jane Doe"
-description = "Call me Jane"
+title = "I'm Gökten"
+author = "Gökten Karadağ - Hugoanotele theme"
+description = "Software Developer"
 profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
@@ -46,7 +46,7 @@ url = "https://www.instagram.com/"
 [[params.socialIcons]]
 icon = "fa-envelope"
 title = "e-mail"
-url = "mailto:mail@alexbilz.com"
+url = "mailto:gktnkrdg@gmail.com"
 
 ## Menu items
 
