@@ -1,7 +1,4 @@
 
-[submodule "gktnkrdg.github.io"]
-	path = gktnkrdg.github.io
-	url = https://github.com/gktnkrdg/gktnkrdg.github.io
 [submodule "themes/anatole"]
 	path = themes/anatole
 	url = https://github.com/lxndrblz/anatole.git
