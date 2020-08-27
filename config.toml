@@ -9,7 +9,7 @@ publishDir = "/gktnkrdg.github.io"
 #disqusShortname = ""
 disableKinds = ["taxonomy", "term"]
 # Google Analytics
-#googleAnalytics = "UA-149416035-1"
+googleAnalytics = "UA-149416035-1"
 
 [params]
 title = "Gökten Karadağ"
