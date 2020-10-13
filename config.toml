@@ -10,7 +10,7 @@ publishDir = "/gktnkrdg.github.io"
 disableKinds = ["taxonomy", "term"]
 # Google Analytics
 googleAnalytics = "UA-149416035-1"
-
+enableRobotsTXT = true
 [params]
 title = "Gökten Karadağ"
 author = "Gökten Karadağ "
